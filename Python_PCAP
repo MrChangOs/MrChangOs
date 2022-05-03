@@ -1,0 +1,22 @@
+numeroSecreto = 777
+
+
+print
+("""
++==================================+
+| Bienvenido a mi juego, muggle!   |
+| Introduce un número entero       |
+| y adivina qué número he          |
+| elegido para ti.                 |
+| Entonces,                        |
+| ¿Cuál es el número secreto?      |
++==================================+
+""")
+
+valor = int (input ("Por favor, ingresa un número: "))
+   
+while valor != numeroSecreto : 
+  
+ print ("¡Ja, ja! ¡Estás atrapado en mi ciclo!")
+ valor = int(input ("Por favor, ingresa un número: "))
+if valor == numeroSecreto : print ("¡Bien hecho, muggle! Eres libre ahora")
