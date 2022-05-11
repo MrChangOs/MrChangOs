@@ -1,0 +1,8 @@
+max = 2
+min = 1
+
+while max > 1 : 
+    word = str(input("Por favor, ingresar una palabra: "))
+    if word == ("chupacabra") :
+        break
+print ("¡Has dejado el ciclo con éxito")
